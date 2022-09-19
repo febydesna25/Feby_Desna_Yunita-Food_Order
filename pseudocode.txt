@@ -1,0 +1,38 @@
+Program Food_Order
+
+DEKLARASI
+
+Var name,address,foodmenu : string;
+Var amount, price, total,paymentmethod : integer;
+
+IMPLEMENTASI
+
+START PROGRAM
+    IF "Order" then
+        PRINT "Food Menu"
+        IF "Choose the food menu" is exist in Food Menu then
+            PRINT "available"
+            READ AND WRITE "name" with string
+            READ AND WRITE "address" with string
+            READ AND WRITE "amount" with number
+            READ AND WRITE "price" with number
+            READ AND WRITE "total" with number
+            STORE "total" with CALCULATE "amount" multipy by "price"
+            PRINT "total"
+            READ "paymentmethod"
+            IF "paymentmethod" equals to 1
+                WRITE "Cash"
+                PRINT "Pay"
+            ELSE IF "paymentmethod" equals to 2
+                Write "Bank"
+                PRINT "Pay"
+            ELSE
+                "Error"
+            END IF
+        ELSE
+            PRINT "not available"
+        END IF
+    ELSE
+        PRINT "Cancel Order"
+    END IF
+END PROGRAM
