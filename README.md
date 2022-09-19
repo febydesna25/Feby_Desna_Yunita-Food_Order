@@ -7,3 +7,8 @@ Food Order adalah layanan pemesanan makanan secara online, kita bisa melakukan p
 - Flowchart.drawio
 - Flowchart.png
 - Pseudocode.txt
+
+Dikerjakan oleh :
+- Feby Desna Yunita
+- febydesna@gmail.com
+- FE3224469
